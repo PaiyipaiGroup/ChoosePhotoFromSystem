@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        //有 bug
         sys.editAvatar(self)
         
     }
